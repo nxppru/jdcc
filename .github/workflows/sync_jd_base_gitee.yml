@@ -16,7 +16,7 @@ jobs:
       - name: git-sync gitee/lxk0301/jd_scripts.git to github with private key
         uses: wei/git-sync@v3
         with:
-          source_repo: "git@jd_base_gitee:supermanito/jd_base.git"
+          source_repo: "git@gitee.com:supermanito/jd_base.git"
           source_branch: "master"
           destination_repo: "nxppru/jdcc"
           destination_branch: "dev"
